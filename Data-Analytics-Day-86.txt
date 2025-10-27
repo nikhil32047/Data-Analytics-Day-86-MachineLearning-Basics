@@ -1,0 +1,73 @@
+Machine Learning for Data Analysts
+
+🔹 Lesson 1: Introduction to Machine Learning (ML)
+======================================================
+Summary:
+Machine Learning uses algorithms to help systems learn from data and make predictions without explicit programming.
+Types:
+---------
+Supervised Learning – uses labeled data (e.g., predicting sales).
+Unsupervised Learning – finds patterns in unlabeled data (e.g., customer segmentation).
+Reinforcement Learning – learns through rewards and penalties.
+
+Example:
+Predicting house prices using historical features such as size, location, and number of rooms.
+
+🎥 Video: Machine Learning Explained Simply – 12 mins
+
+
+🔹 Lesson 2: Linear Regression for Prediction
+=================================================
+Summary:
+Linear Regression finds the relationship between independent variables (X) and a dependent variable (Y).
+Formula: Y = mX + b
+
+Example:
+Predict monthly sales (Y) based on ad spend (X).
+Output → for every ₹1k spent, sales increase by ₹2.5k.
+
+🎥 Video: Linear Regression in Python – 15 mins
+
+
+🔹 Lesson 3: Logistic Regression for Classification
+======================================================
+Summary:
+Used when the target is categorical (Yes/No, 0/1).
+Predicts probabilities with a sigmoid curve.
+
+Example:
+Predict whether a customer will churn (1) or stay (0) based on usage, age, and support tickets.
+
+🎥 Video: Logistic Regression Explained – 14 mins
+
+
+🔹 Lesson 4: Model Evaluation Metrics
+==========================================
+Summary:
+To measure model performance:
+Accuracy – % of correct predictions
+Precision / Recall / F1-score – balance between false positives & negatives
+R² Score – regression model strength
+
+Example:
+A churn model with accuracy = 0.88 but low recall means it misses many churners — not ideal for business.
+
+🎥 Video: Evaluation Metrics Explained – 17 mins
+
+
+🔹 Lesson 5: Case Study – Predicting Customer Churn
+======================================================
+Summary:
+Steps:
+---------
+Collect and clean telecom customer data
+Train logistic regression model
+Evaluate accuracy, precision, and recall
+Deliver business insight → “Target high-risk users with loyalty offers”
+
+Example:
+The model predicted 82% of churners correctly, reducing loss by ₹5 lakhs / month.
+
+🎥 Video: Customer Churn Prediction Case Study – 20 mins
+
+
